@@ -1,0 +1,422 @@
+[
+    {
+        "pol": "Zaczynam",
+        "es": "empiezo",
+        "col": "b"
+    },
+    {
+        "pol": "Zaczynasz",
+        "es": "empiezas",
+        "col": "b"
+    },
+    {
+        "pol": "Zaczyna",
+        "es": "empieza",
+        "col": "b"
+    },
+    {
+        "pol": "Zaczynamy",
+        "es": "empezamos",
+        "col": "b"
+    },
+    {   
+        "pol": "Zaczynacie",
+        "es": "empezáis",
+        "col": "b"
+    },
+    {
+        "pol": "Zaczynają",
+        "es": "empiezan",
+        "col": "b"
+    },
+    {
+        "pol": "Myślę o",
+        "es": "pienso en",
+        "col": "b"
+    },
+    {
+        "pol": "Myślisz o",
+        "es": "piensas en",
+        "col": "b"
+    },
+    {
+        "pol": "Myśli o",
+        "es": "piensa en",
+        "col": "b"
+    },
+    {
+        "pol": "Myślimy o",
+        "es": "pensamos en",
+        "col": "b"
+    },
+    {
+        "pol": "Myślicie o",
+        "es": "pensáis en",
+        "col": "b"
+    },
+    {
+        "pol": "Myślą o",
+        "es": "piensan en",
+        "col": "b"
+    },
+    {
+        "pol": "Rozumiem",
+        "es": "entiendo",
+        "col": "g"
+    },
+    {
+        "pol": "Rozumiesz",
+        "es": "entiendes",
+        "col": "g"
+    },
+    {
+        "pol": "Rozumie",
+        "es": "entiende",
+        "col": "g"
+    },
+    {
+        "pol": "Rozumiemy",
+        "es": "entendemos",
+        "col": "g"
+    },
+    {
+        "pol": "Rozumiecie",
+        "es": "entendéis",
+        "col": "g"
+    },
+    {
+        "pol": "Rozumieją",
+        "es": "entienden",
+        "col": "g"
+    },
+    {
+        "pol": "Chcę",
+        "es": "quiero",
+        "col": "g"
+    },
+    {
+        "pol": "Chcesz",
+        "es": "quieres",
+        "col": "g"
+    },
+    {
+        "pol": "Chce",
+        "es": "quiere",
+        "col": "g"
+    },
+    {
+        "pol": "Chcemy",
+        "es": "queremos",
+        "col": "g"
+    },
+    {
+        "pol": "Chcecie",
+        "es": "queréis",
+        "col": "g"
+    },
+    {
+        "pol": "Chcą",
+        "es": "quieren",
+        "col": "g"
+    },
+    {
+        "pol": "Wolę",
+        "es": "prefiero",
+        "col": "r"
+    },
+    {
+        "pol": "Wolisz",
+        "es": "prefieres",
+        "col": "r"
+    },
+    {
+        "pol": "Woli",
+        "es": "prefiere",
+        "col": "r"
+    },
+    {
+        "pol": "Wolimy",
+        "es": "preferimos",
+        "col": "r"
+    },
+    {
+        "pol": "Wolicie",
+        "es": "prefereís",
+        "col": "r"
+    },
+    {
+        "pol": "Wolą",
+        "es": "prefieren",
+        "col": "r"
+    },
+    {
+        "pol": "Gram",
+        "es": "juego",
+        "col": "b"
+    },
+    {
+        "pol": "Grasz",
+        "es": "juegas",
+        "col": "b"
+    },
+    {
+        "pol": "Gra",
+        "es": "juega",
+        "col": "b"
+    },
+    {
+        "pol": "Gramy",
+        "es": "jugamos",
+        "col": "b"
+    },
+    {
+        "pol": "Gracie",
+        "es": "jugáis",
+        "col": "b"
+    },
+    {
+        "pol": "Grają",
+        "es": "juegan",
+        "col": "b"
+    },
+    {
+        "pol": "Mogę",
+        "es": "puedo",
+        "col": "g"
+    },
+    {
+        "pol": "Możesz",
+        "es": "puedes",
+        "col": "g"
+    },
+    {
+        "pol": "Może",
+        "es": "puede",
+        "col": "g"
+    },
+    {
+        "pol": "Możemy",
+        "es": "podemos",
+        "col": "g"
+    },
+    {
+        "pol": "Możecie",
+        "es": "podéis",
+        "col": "g"
+    },
+    {
+        "pol": "Mogą",
+        "es": "pueden",
+        "col": "g"
+    },
+    {
+        "pol": "Wracam",
+        "es": "vuelvo",
+        "col": "g"
+    },
+    {
+        "pol": "Wracasz",
+        "es": "vuelves",
+        "col": "g"
+    },
+    {
+        "pol": "Wraca",
+        "es": "vuelve",
+        "col": "g"
+    },
+    {
+        "pol": "Wracamy",
+        "es": "volvemos",
+        "col": "g"
+    },
+    {
+        "pol": "Wracacie",
+        "es": "volvéis",
+        "col": "g"
+    },
+    {
+        "pol": "Wracają",
+        "es": "vuelven",
+        "col": "g"
+    },
+    {
+        "pol": "Mam w zwyczaju",
+        "es": "suelo",
+        "col": "g"
+    },
+    {
+        "pol": "Masz w zwyczaju",
+        "es": "sueles",
+        "col": "g"
+    },
+    {
+        "pol": "Ma w zwyczaju",
+        "es": "suele",
+        "col": "g"
+    },
+    {
+        "pol": "Mamy w zwyczaju",
+        "es": "solemos",
+        "col": "g"
+    },
+    {
+        "pol": "Macie w zwyczaju",
+        "es": "soléis",
+        "col": "g"
+    },
+    {
+        "pol": "Mają w zwyczaju",
+        "es": "suelen",
+        "col": "g"
+    },
+    {
+        "pol": "Pamiętam",
+        "es": "recuerdo",
+        "col": "b"
+    },
+    {
+        "pol": "Pamiętasz",
+        "es": "recuerdas",
+        "col": "b"
+    },
+    {
+        "pol": "Pamięta",
+        "es": "recuerda",
+        "col": "b"
+    },
+    {
+        "pol": "Pamiętamy",
+        "es": "recordamos",
+        "col": "b"
+    },
+    {
+        "pol": "Pamiętacie",
+        "es": "recordáis",
+        "col": "b"
+    },
+    {
+        "pol": "Pamiętają",
+        "es": "recuerdan",
+        "col": "b"
+    },
+    {
+        "pol": "Spotykam",
+        "es": "encuentro",
+        "col": "b"
+    },
+    {
+        "pol": "Spotykasz",
+        "es": "encuentras",
+        "col": "b"
+    },
+    {
+        "pol": "Spotyka",
+        "es": "encuentra",
+        "col": "b"
+    },
+    {
+        "pol": "Spotykamy",
+        "es": "encontramos",
+        "col": "b"
+    },
+    {
+        "pol": "Spotykacie",
+        "es": "encontráis",
+        "col": "b"
+    },
+    {
+        "pol": "Spotykają",
+        "es": "encuentran",
+        "col": "b"
+    },
+    {
+        "pol": "Proszę",
+        "es": "pido",
+        "col": "r"
+    },
+    {
+        "pol": "Prosisz",
+        "es": "pides",
+        "col": "r"
+    },
+    {
+        "pol": "Prosi",
+        "es": "pide",
+        "col": "r"
+    },
+    {
+        "pol": "Prosimy",
+        "es": "pedimos",
+        "col": "r"
+    },
+    {
+        "pol": "Prosicie",
+        "es": "pedís",
+        "col": "r"
+    },
+    {
+        "pol": "Proszą",
+        "es": "piden",
+        "col": "r"
+    },
+    {
+        "pol": "Służę",
+        "es": "sirvo",
+        "col": "r"
+    },
+    {
+        "pol": "Służysz",
+        "es": "sirves",
+        "col": "r"
+    },
+    {
+        "pol": "Służy",
+        "es": "sirve",
+        "col": "r"
+    },
+    {
+        "pol": "Służymy",
+        "es": "servimos",
+        "col": "r"
+    },
+    {
+        "pol": "Służycie",
+        "es": "Servís",
+        "col": "r"
+    },
+    {
+        "pol": "Służą",
+        "es": "sirven",
+        "col": "r"
+    },
+    {
+        "pol": "Idę",
+        "es": "sigo",
+        "col": "r"
+    },
+    {
+        "pol": "Idziesz",
+        "es": "siges",
+        "col": "r"
+    },
+    {
+        "pol": "Idzie",
+        "es": "sige",
+        "col": "r"
+    },
+    {
+        "pol": "Idziemy",
+        "es": "segimos",
+        "col": "r"
+    },
+    {
+        "pol": "Idziecie",
+        "es": "segís",
+        "col": "r"
+    },
+    {
+        "pol": "Idą",
+        "es": "sigen",
+        "col": "r"
+    }
+]

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Español</title>
+    </head>
+    <body>
+        <div class="table-container">
+            <table id="espanol-table">
+                <thead>
+                    <tr id="headrow">
+                        <th>Osoba</th>
+                        <th>Polish</th>
+                        <th>Spanish</th>
+                        <th class="button-container">
+                            <button class="button" id="show-all-button">
+                                Mostrar todo
+                            </button>
+                            <button class="button" id="reset-button">
+                                Reiniciar
+                            </button>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="espanol-body"></tbody>
+            </table>
+        </div>
+
+        <script>
+            const tableBody = document.querySelector("#espanol-body");
+            const showAllButton = document.querySelector("#show-all-button");
+
+            showAllButton.addEventListener("click", () => {
+                const rows = tableBody.querySelectorAll("tr");
+                rows.forEach((row) => {
+                    const cells = row.querySelectorAll("td");
+                    cells.forEach((cell) => {
+                        cell.classList.remove("hide");
+                    });
+                });
+            });
+            
+            function createTableRow(verb, i) {
+                const persons = ["Yo", "Tú", "Él/ ella/ Usted", "Nosotros/-as", "Vosotros/as", "Ellos/ ellas/ Uds"];
+
+                const row = document.createElement("tr");
+                const pers = document.createElement("td");
+                const pol = document.createElement("td");
+                const es = document.createElement("td");
+                const button = document.createElement("td");
+                const showButton = document.createElement("button");
+
+                pers.textContent = persons[i%6];
+                pers.classList.add("button-right");
+                pol.textContent = verb.pol;
+                es.textContent = verb.es;
+
+                if(verb.col == "r"){
+                    pol.classList.add("button-red");
+                    es.classList.add("button-red");
+                    pers.classList.add("button-red");
+                }
+                if(verb.col == "g"){
+                    pol.classList.add("button-green");
+                    es.classList.add("button-green");
+                    pers.classList.add("button-green");
+                }
+                if(verb.col == "b"){
+                    pol.classList.add("button-blue");
+                    es.classList.add("button-blue");
+                    pers.classList.add("button-blue");
+                }
+
+                showButton.textContent = "Mostrar";
+                showButton.classList.add("button");
+
+                const cells = [pol, es];
+                const randomIndex = Math.floor(Math.random() * cells.length);
+
+                cells.forEach((cell, index) => {
+                    if (index % 2 == 1) {
+                        cell.classList.add("hide");
+                    }
+                    showButton.addEventListener("click", () => {
+                        cells.forEach((cell) => cell.classList.remove("hide"));
+                    });
+                });
+
+                button.appendChild(showButton);
+                row.appendChild(pers);
+                row.appendChild(pol);
+                row.appendChild(es);
+                row.appendChild(button);
+
+                return row;
+            }
+
+            const resetButton = document.querySelector("#reset-button");
+            resetButton.addEventListener("click", () => {   
+                const rows = tableBody.querySelectorAll("tr");
+                rows.forEach((row) => {
+                    const cells = row.querySelectorAll("td");
+                    cells.forEach((cell) => {
+                        if (cell.querySelector("button")) {
+                            // check if the cell contains a button
+                            return;
+                        }
+                        cell.classList.add("hide");
+                    });
+                    const randomIndex = Math.floor(
+                        Math.random() * (cells.length - 1)
+                    );
+                    cells[randomIndex].classList.remove("hide");
+                });
+            });
+            let i = 0;
+            fetch("espanol.json")
+                .then((response) => response.json())
+                .then((irregularVerbs) => {
+                    irregularVerbs.forEach((verb) => {
+                        if(i % 6 == 0 && i > 1 ){
+                            const row = document.createElement("tr");
+                            const pers = document.createElement("td");
+                            const pol = document.createElement("td");
+                            const es = document.createElement("td");
+                            const button = document.createElement("td");
+                            row.appendChild(pers);
+                            row.appendChild(pol);
+                            row.appendChild(es);
+                            row.appendChild(button);
+                            tableBody.appendChild(row);
+                        }
+                        const row = createTableRow(verb, i);
+                        tableBody.appendChild(row);
+                        
+                        i++;
+                    });
+                });
+        </script>
+    </body>
+</html>
