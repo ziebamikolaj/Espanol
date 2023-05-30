@@ -109,10 +109,8 @@
                         }
                         cell.classList.add("hide");
                     });
-                    const randomIndex = Math.floor(
-                        Math.random() * (cells.length - 1)
-                    );
-                    cells[randomIndex].classList.remove("hide");
+                    cells[0].classList.remove("hide");
+                    cells[1].classList.remove("hide");
                 });
             });
             let i = 0;
