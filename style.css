@@ -13,18 +13,19 @@
     --text-color: #333333;
   }
   html {
+    width: 100%;
     touch-action: manipulation;
-    width: 100vw;
   }
   body {
-    width: 100vw;
+    width: 100%;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: var(--background-color);
   }
   
   /* Table container */
   .table-container {
-    width: 100vw;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +34,7 @@
   
   /* Table styles */
   table {
-    width: 100vw;
+    width: 100%;
     border-collapse: collapse;
     color: var(--text-color);
   }
