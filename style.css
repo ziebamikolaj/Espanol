@@ -106,12 +106,15 @@
     opacity: 0%;
   }
   /* Mobile styles */
-  @media (max-width: 767px) {
-    body {
-        font-size: 1.4em;
+  @media only screen and (min-device-width: 600px) and (max-device-width: 1024px) and (orientation: portrait) {
+    * {
+        font-size: 1.15em !important;
     }
     th, td {
         padding: 6px;
+    }
+    .button{
+        font-size: .7em !important;
     }
   }
 
