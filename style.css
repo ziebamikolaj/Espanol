@@ -14,8 +14,10 @@
   }
   html {
     touch-action: manipulation;
+    width: 100vw;
   }
   body {
+    width: 100vw;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: var(--background-color);
   }
