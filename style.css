@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 1.07em;
   }
   
   /* Global styles */
@@ -75,7 +76,6 @@
     border-radius: 4px;
     background-color: var(--primary-color);
     color: #fff;
-    font-size: 16px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
@@ -105,3 +105,14 @@
   .hide {
     opacity: 0%;
   }
+  /* Mobile styles */
+  @media (max-width: 767px) {
+    body {
+        font-size: 1.4em;
+    }
+    th, td {
+        padding: 6px;
+    }
+  }
+
+  
