@@ -22,6 +22,7 @@
   
   /* Table container */
   .table-container {
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +31,7 @@
   
   /* Table styles */
   table {
-    width: 100%;
+    width: 100vw;
     border-collapse: collapse;
     color: var(--text-color);
   }
