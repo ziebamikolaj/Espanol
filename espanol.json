@@ -1,564 +1,836 @@
 [
     {
-    "pol": "Zaczynać",
-    "es": "empezar (e:ie)"
+      "pol": "Szampan",
+      "es": "cava"
     },
     {
-        "pol": "Zaczynam",
-        "es": "empiezo",
-        "col": "b"
+      "pol": "Produkować",
+      "es": "fabricar"
     },
     {
-        "pol": "Zaczynasz",
-        "es": "empiezas",
-        "col": "b"
+      "pol": "Tworzyć",
+      "es": "elaborar"
     },
     {
-        "pol": "Zaczyna",
-        "es": "empieza",
-        "col": "b"
+      "pol": "Sprzedawać",
+      "es": "comercializar"
     },
     {
-        "pol": "Zaczynamy",
-        "es": "empezamos",
-        "col": "b"
+      "pol": "Firma (rodzinna)",
+      "es": "empresa (familiar)"
     },
-    {   
-        "pol": "Zaczynacie",
-        "es": "empezáis",
-        "col": "b"
+    {
+      "pol": "Sieć (hoteli)",
+      "es": "cadena (hotelera)"
+    },
+    {
+      "pol": "Spółka",
+      "es": "compañía"
+    },
+    {
+      "pol": "Spółka z o.o.",
+      "es": "sociedad de responsabilidad limitada (S.R.L.)"
+    },
+    {
+      "pol": "Stanowisko pracy",
+      "es": "lugar de trabajo"
+    },
+    {
+      "pol": "Zakwaterować",
+      "es": "alojarse en (un hotel)"
+    },
+    {
+      "pol": "Hotel 3-gwiazdkowy",
+      "es": "un hotel de tres estrellas"
+    },
+    {
+      "pol": "Zarezerwować pokój",
+      "es": "reservar una habitacíon"
+    },
+    {
+      "pol": "na tydzień",
+      "es": "para una semana"
+    },
+    {
+      "pol": "Pokój jednoosobowy",
+      "es": "una havitacion individual"
+    },
+    {
+      "pol": "dwuosobowy",
+      "es": "doble"
+    },
+    {
+      "pol": "dla trzech osób",
+      "es": "para tres personas"
+    },
+    {
+      "pol": "z widokiem na morze / park / patio",
+      "es": "con vistas al mar / al parque / alpatio"
+    },
+    {
+      "pol": "ze śniadaniem",
+      "es": "con desayuno"
+    },
+    {
+      "pol": "z wyżywieniem niepełnym",
+      "es": "con media pensión"
+    },
+    {
+      "pol": "z pełnym wyżywieniem",
+      "es": "con pensión completa"
+    },
+    {
+      "pol": "Czy możesz powiedzieć czy są dziś wolne pokoje?",
+      "es": "¿Puede decirme si hay habitaciones?"
+    },
+    {
+      "pol": "Jaki chciałby Pan pokój?",
+      "es": "¿Qué tipo de habitación desea?"
+    },
+    {
+      "pol": "Ile kosztuje ...?",
+      "es": "¿Que precio tiene ... ?"
+    },
+    {
+      "pol": "Proszę zrobić dla mnie rezerwację",
+      "es": "Hágame la reserva, por favor"
+    },
+    {
+      "pol": "Czy przyjmują państwo kartę kredytową?",
+      "es": "¿Admiten tarjetas de crédito?"
+    },
+    {
+      "pol": "Płacić za",
+      "es": "pagar por"
+    },
+    {
+      "pol": "Płacić za coś na raty",
+      "es": "pagar a plazos por"
+    },
+    {
+      "pol": "Płacić gotówką / kartą debetową / kartą kredytową / telefonem",
+      "es": "pagar con dinero / con tarjeta de débito / de crédito / con el móvil"
+    },
+    {
+      "pol": "Robić przelew na rachunek bankowy",
+      "es": "hacer una transferencia a la cuenta bancaria"
+    },
+    {
+      "pol": "Inwestować pieniądze",
+      "es": "Invertir (e:ir) dinero en"
+    },
+    {
+      "pol": "Oszczędzać pieniądze na",
+      "es": "Ahorrar dinero para"
+    },
+    {
+      "pol": "Wydawać pieniądze",
+      "es": "gastar dinero en"
+    },
+    {
+      "pol": "Zarabiać pieniądze",
+      "es": "ganar dinero"
+    },
+    {
+      "pol": "Wypłacić pieniądze z bankomatu",
+      "es": "sacar dinero del cajero automático"
+    },
+    {
+      "pol": "rodzina",
+      "es": "familia"
+    },
+    {
+      "pol": "rodzeństwo",
+      "es": "hermanos"
+    },
+    {
+      "pol": "siostra",
+      "es": "hermana"
+    },
+    {
+      "pol": "brat",
+      "es": "hermano"
+    },
+    {
+      "pol": "matka",
+      "es": "madre"
+    },
+    {
+      "pol": "ojciec",
+      "es": "padre"
+    },
+    {
+      "pol": "syn",
+      "es": "hijo"
+    },
+    {
+      "pol": "córka",
+      "es": "hija"
+    },
+    {
+      "pol": "dziadek",
+      "es": "abuelo"
+    },
+    {
+      "pol": "babcia",
+      "es": "abuela"
+    },
+    {
+      "pol": "wujek",
+      "es": "tío"
+    },
+    {
+      "pol": "ciocia",
+      "es": "tía"
+    },
+    {
+      "pol": "kuzyn",
+      "es": "primo/prima"
+    },
+    {
+      "pol": "Zaczynać",
+      "es": "Empezar (e:ie)"
+    },
+    {
+      "pol": "Zaczynam",
+      "es": "empiezo",
+      "col": "b"
+    },
+    {
+      "pol": "Zaczynasz",
+      "es": "empiezas",
+      "col": "b"
+    },
+    {
+      "pol": "Zaczyna",
+      "es": "empieza",
+      "col": "b"
+    },
+    {
+      "pol": "Zaczynamy",
+      "es": "empezamos",
+      "col": "b"
+    },
+    {
+      "pol": "Zaczynacie",
+      "es": "empezáis",
+      "col": "b"
+    },
+    {
+      "pol": "Zaczynają",
+      "es": "empiezan",
+      "col": "b"
+    },
+    {
+      "pol": "Myśleć o",
+      "es": "  en (e:ie)"
+    },
+    {
+      "pol": "Myślę o",
+      "es": "pienso en",
+      "col": "b"
+    },
+    {
+      "pol": "Myślisz o",
+      "es": "piensas en",
+      "col": "b"
+    },
+    {
+      "pol": "Myśli o",
+      "es": "piensa en",
+      "col": "b"
+    },
+    {
+      "pol": "Myślimy o",
+      "es": "pensamos en",
+      "col": "b"
+    },
+    {
+      "pol": "Myślicie o",
+      "es": "pensáis en",
+      "col": "b"
+    },
+    {
+      "pol": "Myślą o",
+      "es": "piensan en",
+      "col": "b"
+    },
+    {
+      "pol": "Rozumieć",
+      "es": "Entender (e:ie)"
+    },
+    {
+      "pol": "Rozumiem",
+      "es": "entiendo",
+      "col": "g"
+    },
+    {
+      "pol": "Rozumiesz",
+      "es": "entiendes",
+      "col": "g"
+    },
+    {
+      "pol": "Rozumie",
+      "es": "entiende",
+      "col": "g"
+    },
+    {
+      "pol": "Rozumiemy",
+      "es": "entendemos",
+      "col": "g"
+    },
+    {
+      "pol": "Rozumiecie",
+      "es": "entendéis",
+      "col": "g"
+    },
+    {
+      "pol": "Rozumieją",
+      "es": "entienden",
+      "col": "g"
+    },
+    {
+      "pol": "Chcieć",
+      "es": "Querer (e:ie)"
     },
     {
-        "pol": "Zaczynają",
-        "es": "empiezan",
-        "col": "b"
+      "pol": "Chcę",
+      "es": "quiero",
+      "col": "g"
     },
     {
-        "pol": "Myśleć o",
-        "es": "pensar en (e:ie)"
+      "pol": "Chcesz",
+      "es": "quieres",
+      "col": "g"
     },
     {
-        "pol": "Myślę o",
-        "es": "pienso en",
-        "col": "b"
+      "pol": "Chce",
+      "es": "quiere",
+      "col": "g"
     },
     {
-        "pol": "Myślisz o",
-        "es": "piensas en",
-        "col": "b"
+      "pol": "Chcemy",
+      "es": "queremos",
+      "col": "g"
     },
     {
-        "pol": "Myśli o",
-        "es": "piensa en",
-        "col": "b"
+      "pol": "Chcecie",
+      "es": "queréis",
+      "col": "g"
     },
     {
-        "pol": "Myślimy o",
-        "es": "pensamos en",
-        "col": "b"
+      "pol": "Chcą",
+      "es": "quieren",
+      "col": "g"
     },
     {
-        "pol": "Myślicie o",
-        "es": "pensáis en",
-        "col": "b"
+      "pol": "Woleć",
+      "es": "Preferir  (e:ie)"
     },
     {
-        "pol": "Myślą o",
-        "es": "piensan en",
-        "col": "b"
+      "pol": "Wolę",
+      "es": "prefiero",
+      "col": "r"
     },
     {
-        "pol": "Rozumieć",
-        "es": "entender (e:ie)"
+      "pol": "Wolisz",
+      "es": "prefieres",
+      "col": "r"
     },
     {
-        "pol": "Rozumiem",
-        "es": "entiendo",
-        "col": "g"
+      "pol": "Woli",
+      "es": "prefiere",
+      "col": "r"
     },
     {
-        "pol": "Rozumiesz",
-        "es": "entiendes",
-        "col": "g"
+      "pol": "Wolimy",
+      "es": "preferimos",
+      "col": "r"
     },
     {
-        "pol": "Rozumie",
-        "es": "entiende",
-        "col": "g"
+      "pol": "Wolicie",
+      "es": "prefereís",
+      "col": "r"
     },
     {
-        "pol": "Rozumiemy",
-        "es": "entendemos",
-        "col": "g"
+      "pol": "Wolą",
+      "es": "prefieren",
+      "col": "r"
     },
     {
-        "pol": "Rozumiecie",
-        "es": "entendéis",
-        "col": "g"
+      "pol": "Grać",
+      "es": "Jugar (u:ue)"
     },
     {
-        "pol": "Rozumieją",
-        "es": "entienden",
-        "col": "g"
+      "pol": "Gram",
+      "es": "juego",
+      "col": "b"
     },
     {
-    "pol": "Chcieć",
-    "es": "querer (e:ie)"
+      "pol": "Grasz",
+      "es": "juegas",
+      "col": "b"
     },
     {
-        "pol": "Chcę",
-        "es": "quiero",
-        "col": "g"
+      "pol": "Gra",
+      "es": "juega",
+      "col": "b"
     },
     {
-        "pol": "Chcesz",
-        "es": "quieres",
-        "col": "g"
+      "pol": "Gramy",
+      "es": "jugamos",
+      "col": "b"
     },
     {
-        "pol": "Chce",
-        "es": "quiere",
-        "col": "g"
+      "pol": "Gracie",
+      "es": "jugáis",
+      "col": "b"
     },
     {
-        "pol": "Chcemy",
-        "es": "queremos",
-        "col": "g"
+      "pol": "Grają",
+      "es": "juegan",
+      "col": "b"
     },
     {
-        "pol": "Chcecie",
-        "es": "queréis",
-        "col": "g"
+      "pol": "Móc",
+      "es": "Poder (o:ue)"
     },
     {
-        "pol": "Chcą",
-        "es": "quieren",
-        "col": "g"
+      "pol": "Mogę",
+      "es": "puedo",
+      "col": "g"
     },
     {
-    "pol": "Woleć",
-    "es": "preferir  (e:ie)"
+      "pol": "Możesz",
+      "es": "puedes",
+      "col": "g"
     },
     {
-        "pol": "Wolę",
-        "es": "prefiero",
-        "col": "r"
+      "pol": "Może",
+      "es": "puede",
+      "col": "g"
     },
     {
-        "pol": "Wolisz",
-        "es": "prefieres",
-        "col": "r"
+      "pol": "Możemy",
+      "es": "podemos",
+      "col": "g"
     },
     {
-        "pol": "Woli",
-        "es": "prefiere",
-        "col": "r"
+      "pol": "Możecie",
+      "es": "podéis",
+      "col": "g"
     },
     {
-        "pol": "Wolimy",
-        "es": "preferimos",
-        "col": "r"
+      "pol": "Mogą",
+      "es": "pueden",
+      "col": "g"
     },
     {
-        "pol": "Wolicie",
-        "es": "prefereís",
-        "col": "r"
+      "pol": "Wracać",
+      "es": "Volver (o:ue)"
     },
     {
-        "pol": "Wolą",
-        "es": "prefieren",
-        "col": "r"
+      "pol": "Wracam",
+      "es": "vuelvo",
+      "col": "g"
     },
     {
-    "pol": "Grać",
-    "es": "jugar (u:ue)"
+      "pol": "Wracasz",
+      "es": "vuelves",
+      "col": "g"
     },
     {
-        "pol": "Gram",
-        "es": "juego",
-        "col": "b"
+      "pol": "Wraca",
+      "es": "vuelve",
+      "col": "g"
     },
     {
-        "pol": "Grasz",
-        "es": "juegas",
-        "col": "b"
+      "pol": "Wracamy",
+      "es": "volvemos",
+      "col": "g"
     },
     {
-        "pol": "Gra",
-        "es": "juega",
-        "col": "b"
+      "pol": "Wracacie",
+      "es": "volvéis",
+      "col": "g"
     },
     {
-        "pol": "Gramy",
-        "es": "jugamos",
-        "col": "b"
+      "pol": "Wracają",
+      "es": "vuelven",
+      "col": "g"
     },
     {
-        "pol": "Gracie",
-        "es": "jugáis",
-        "col": "b"
+      "pol": "Mieć w zwyczaju",
+      "es": "Soler (o:ue)"
     },
     {
-        "pol": "Grają",
-        "es": "juegan",
-        "col": "b"
+      "pol": "Mam w zwyczaju",
+      "es": "suelo",
+      "col": "g"
     },
     {
-    "pol": "Móc",
-    "es": "poder (o:ue)"
+      "pol": "Masz w zwyczaju",
+      "es": "sueles",
+      "col": "g"
     },
     {
-        "pol": "Mogę",
-        "es": "puedo",
-        "col": "g"
+      "pol": "Ma w zwyczaju",
+      "es": "suele",
+      "col": "g"
     },
     {
-        "pol": "Możesz",
-        "es": "puedes",
-        "col": "g"
+      "pol": "Mamy w zwyczaju",
+      "es": "solemos",
+      "col": "g"
     },
     {
-        "pol": "Może",
-        "es": "puede",
-        "col": "g"
+      "pol": "Macie w zwyczaju",
+      "es": "soléis",
+      "col": "g"
     },
     {
-        "pol": "Możemy",
-        "es": "podemos",
-        "col": "g"
+      "pol": "Mają w zwyczaju",
+      "es": "suelen",
+      "col": "g"
     },
     {
-        "pol": "Możecie",
-        "es": "podéis",
-        "col": "g"
+      "pol": "Pamiętać",
+      "es": "Recordar (o:ue)"
     },
     {
-        "pol": "Mogą",
-        "es": "pueden",
-        "col": "g"
+      "pol": "Pamiętam",
+      "es": "recuerdo",
+      "col": "b"
     },
     {
-    "pol": "Wracać",
-    "es": "volver (o:ue)"
+      "pol": "Pamiętasz",
+      "es": "recuerdas",
+      "col": "b"
     },
     {
-        "pol": "Wracam",
-        "es": "vuelvo",
-        "col": "g"
+      "pol": "Pamięta",
+      "es": "recuerda",
+      "col": "b"
     },
     {
-        "pol": "Wracasz",
-        "es": "vuelves",
-        "col": "g"
+      "pol": "Pamiętamy",
+      "es": "recordamos",
+      "col": "b"
     },
     {
-        "pol": "Wraca",
-        "es": "vuelve",
-        "col": "g"
+      "pol": "Pamiętacie",
+      "es": "recordáis",
+      "col": "b"
     },
     {
-        "pol": "Wracamy",
-        "es": "volvemos",
-        "col": "g"
+      "pol": "Pamiętają",
+      "es": "recuerdan",
+      "col": "b"
     },
     {
-        "pol": "Wracacie",
-        "es": "volvéis",
-        "col": "g"
+      "pol": "Spotykać",
+      "es": "Encontrar (o:ue)"
     },
     {
-        "pol": "Wracają",
-        "es": "vuelven",
-        "col": "g"
+      "pol": "Spotykam",
+      "es": "encuentro",
+      "col": "b"
     },
     {
-    "pol": "Mieć w zwyczaju",
-    "es": "soler (o:ue)"
+      "pol": "Spotykasz",
+      "es": "encuentras",
+      "col": "b"
     },
     {
-        "pol": "Mam w zwyczaju",
-        "es": "suelo",
-        "col": "g"
+      "pol": "Spotyka",
+      "es": "encuentra",
+      "col": "b"
     },
     {
-        "pol": "Masz w zwyczaju",
-        "es": "sueles",
-        "col": "g"
+      "pol": "Spotykamy",
+      "es": "encontramos",
+      "col": "b"
     },
     {
-        "pol": "Ma w zwyczaju",
-        "es": "suele",
-        "col": "g"
+      "pol": "Spotykacie",
+      "es": "encontráis",
+      "col": "b"
     },
     {
-        "pol": "Mamy w zwyczaju",
-        "es": "solemos",
-        "col": "g"
+      "pol": "Spotykają",
+      "es": "encuentran",
+      "col": "b"
     },
     {
-        "pol": "Macie w zwyczaju",
-        "es": "soléis",
-        "col": "g"
+      "pol": "Prosić",
+      "es": "Pedir (e:i)"
     },
     {
-        "pol": "Mają w zwyczaju",
-        "es": "suelen",
-        "col": "g"
+      "pol": "Proszę",
+      "es": "pido",
+      "col": "r"
     },
     {
-        "pol": "Pamiętać",
-        "es": "recordar (o:ue)"
+      "pol": "Prosisz",
+      "es": "pides",
+      "col": "r"
     },
     {
-        "pol": "Pamiętam",
-        "es": "recuerdo",
-        "col": "b"
+      "pol": "Prosi",
+      "es": "pide",
+      "col": "r"
     },
     {
-        "pol": "Pamiętasz",
-        "es": "recuerdas",
-        "col": "b"
+      "pol": "Prosimy",
+      "es": "pedimos",
+      "col": "r"
     },
     {
-        "pol": "Pamięta",
-        "es": "recuerda",
-        "col": "b"
+      "pol": "Prosicie",
+      "es": "pedís",
+      "col": "r"
     },
     {
-        "pol": "Pamiętamy",
-        "es": "recordamos",
-        "col": "b"
+      "pol": "Proszą",
+      "es": "piden",
+      "col": "r"
     },
     {
-        "pol": "Pamiętacie",
-        "es": "recordáis",
-        "col": "b"
+      "pol": "Służyć",
+      "es": "Servir (e:i)"
     },
     {
-        "pol": "Pamiętają",
-        "es": "recuerdan",
-        "col": "b"
+      "pol": "Służę",
+      "es": "sirvo",
+      "col": "r"
     },
     {
-        "pol": "Spotykać",
-        "es": "encontrar (o:ue)"
+      "pol": "Służysz",
+      "es": "sirves",
+      "col": "r"
     },
     {
-        "pol": "Spotykam",
-        "es": "encuentro",
-        "col": "b"
+      "pol": "Służy",
+      "es": "sirve",
+      "col": "r"
     },
     {
-        "pol": "Spotykasz",
-        "es": "encuentras",
-        "col": "b"
+      "pol": "Służymy",
+      "es": "servimos",
+      "col": "r"
     },
     {
-        "pol": "Spotyka",
-        "es": "encuentra",
-        "col": "b"
+      "pol": "Służycie",
+      "es": "Servís",
+      "col": "r"
     },
     {
-        "pol": "Spotykamy",
-        "es": "encontramos",
-        "col": "b"
+      "pol": "Służą",
+      "es": "sirven",
+      "col": "r"
     },
     {
-        "pol": "Spotykacie",
-        "es": "encontráis",
-        "col": "b"
+      "pol": "Iść",
+      "es": "Seguir"
     },
     {
-        "pol": "Spotykają",
-        "es": "encuentran",
-        "col": "b"
+      "pol": "Idę",
+      "es": "sigo",
+      "col": "r"
     },
     {
-    "pol": "Prosić",
-    "es": "pedir (e:i)"
+      "pol": "Idziesz",
+      "es": "siges",
+      "col": "r"
     },
     {
-        "pol": "Proszę",
-        "es": "pido",
-        "col": "r"
+      "pol": "Idzie",
+      "es": "sige",
+      "col": "r"
     },
     {
-        "pol": "Prosisz",
-        "es": "pides",
-        "col": "r"
+      "pol": "Idziemy",
+      "es": "segimos",
+      "col": "r"
     },
     {
-        "pol": "Prosi",
-        "es": "pide",
-        "col": "r"
+      "pol": "Idziecie",
+      "es": "segís",
+      "col": "r"
     },
     {
-        "pol": "Prosimy",
-        "es": "pedimos",
-        "col": "r"
+      "pol": "Idą",
+      "es": "sigen",
+      "col": "r"
     },
     {
-        "pol": "Prosicie",
-        "es": "pedís",
-        "col": "r"
+      "pol": "Tłumaczyć",
+      "es": "Traducir"
     },
     {
-        "pol": "Proszą",
-        "es": "piden",
-        "col": "r"
+      "pol": "Tłumaczę",
+      "es": "traduzco (zc)",
+      "col": "g"
     },
     {
-    "pol": "Służyć",
-    "es": "servir (e:i)"
+      "pol": "Tłumaczysz",
+      "es": "traduces",
+      "col": "g"
     },
     {
-        "pol": "Służę",
-        "es": "sirvo",
-        "col": "r"
+      "pol": "Tłumaczy",
+      "es": "traduce",
+      "col": "g"
     },
     {
-        "pol": "Służysz",
-        "es": "sirves",
-        "col": "r"
+      "pol": "Tłumaczymy",
+      "es": "traducimos",
+      "col": "g"
     },
     {
-        "pol": "Służy",
-        "es": "sirve",
-        "col": "r"
+      "pol": "Tłumaczycie",
+      "es": "traducís",
+      "col": "g"
     },
     {
-        "pol": "Służymy",
-        "es": "servimos",
-        "col": "r"
+      "pol": "Tłumaczą",
+      "es": "traducen",
+      "col": "g"
     },
     {
-        "pol": "Służycie",
-        "es": "Servís",
-        "col": "r"
+      "pol": "Znać",
+      "es": "Conocer"
     },
     {
-        "pol": "Służą",
-        "es": "sirven",
-        "col": "r"
+      "pol": "Znam",
+      "es": "conzco (zc)",
+      "col": "g"
     },
     {
-    "pol": "Iść",
-    "es": "seguir"
+      "pol": "Znasz",
+      "es": "conoces",
+      "col": "g"
     },
     {
-        "pol": "Idę",
-        "es": "sigo",
-        "col": "r"
+      "pol": "Zna",
+      "es": "conoce",
+      "col": "g"
     },
     {
-        "pol": "Idziesz",
-        "es": "siges",
-        "col": "r"
+      "pol": "Znamy",
+      "es": "conocemos",
+      "col": "g"
     },
     {
-        "pol": "Idzie",
-        "es": "sige",
-        "col": "r"
+      "pol": "Znacie",
+      "es": "conocéis",
+      "col": "g"
     },
     {
-        "pol": "Idziemy",
-        "es": "segimos",
-        "col": "r"
+      "pol": "Znają",
+      "es": "conocen",
+      "col": "g"
     },
     {
-        "pol": "Idziecie",
-        "es": "segís",
-        "col": "r"
+      "pol": "Prowadzić (pojazd)",
+      "es": "Conducir"
     },
     {
-        "pol": "Idą",
-        "es": "sigen",
-        "col": "r"
+      "pol": "Prowadzę (pojazd)",
+      "es": "conduzco (zc)",
+      "col": "r"
     },
     {
-        "pol": "Tłumaczyć",
-        "es": "traducir"
+      "pol": "Prowadzisz (pojazd)",
+      "es": "conduces",
+      "col": "r"
     },
     {
-        "pol": "Tłumaczę",
-        "es": "traduzco (zc)",
-        "col": "g"
+      "pol": "Prowadzi (pojazd)",
+      "es": "conduce",
+      "col": "r"
     },
     {
-        "pol": "Tłumaczysz",
-        "es": "traduces",
-        "col": "g"
+      "pol": "Prowadzimy (pojazd)",
+      "es": "conducimos",
+      "col": "r"
     },
     {
-        "pol": "Tłumaczy",
-        "es": "traduce",
-        "col": "g"
+      "pol": "Prowadzicie (pojazd)",
+      "es": "conducís",
+      "col": "r"
     },
     {
-        "pol": "Tłumaczymy",
-        "es": "traducimos",
-        "col": "g"
+      "pol": "Prowadzą (pojazd)",
+      "es": "conducen",
+      "col": "r"
     },
     {
-        "pol": "Tłumaczycie",
-        "es": "traducís",
-        "col": "g"
+      "pol": "Budować",
+      "es": "Construir (ir)"
     },
     {
-        "pol": "Tłumaczą",
-        "es": "traducen",
-        "col": "g"
+      "pol": "Buduję",
+      "es": "construyo (y)",
+      "col": "r"
     },
     {
-        "pol": "Znać",
-        "es": "Conocer"
+      "pol": "Budujesz",
+      "es": "construyes (y)",
+      "col": "r"
     },
     {
-        "pol": "Znam",
-        "es": "conzco (zc)"
+      "pol": "Buduje",
+      "es": "construye (y)",
+      "col": "r"
     },
     {
-        "pol": "Prowadzić pojazd",
-        "es": "conducir"
+      "pol": "Budujemy",
+      "es": "construimos (i)",
+      "col": "r"
     },
     {
-        "pol": "Prowadzę pojazd",
-        "es": "conduzco (zc)"
+      "pol": "Budujecie",
+      "es": "construís (í)",
+      "col": "r"
     },
     {
+      "pol": "Budują",
+      "es": "construyen (y)",
+      "col": "r"
     },
     {
-        "pol": "Budować",
-        "es": "construir (ir)"
+      "pol": "Produkować",
+      "es": "Producir (ir)"
     },
     {
-        "pol": "Buduję",
-        "es": "construyo (y)",
-        "col": "g"
+      "pol": "Produkuję",
+      "es": "produzco (zc)",
+      "col": "r"
     },
     {
-        "pol": "Budujesz",
-        "es": "construyes (y)",
-        "col": "g"
+      "pol": "Produkujesz",
+      "es": "produces",
+      "col": "r"
     },
     {
-        "pol": "Buduje",
-        "es": "construye (y)",
-        "col": "g"
+      "pol": "Produkuje",
+      "es": "produce ",
+      "col": "r"
     },
     {
-        "pol": "Budujemy",
-        "es": "construimos (i)",
-        "col": "g"
+      "pol": "Produkujemy",
+      "es": "producimos",
+      "col": "r"
     },
     {
-        "pol": "Budujecie",
-        "es": "construís (í)",
-        "col": "g"
+      "pol": "Produkujecie",
+      "es": "producís",
+      "col": "r"
     },
     {
-        "pol": "Budują",
-        "es": "construyen (y)",
-        "col": "g"
+      "pol": "Produkują",
+      "es": "producen",
+      "col": "r"
     }
-]
+  ]
