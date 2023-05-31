@@ -39,7 +39,10 @@
     border-collapse: collapse;
     color: var(--text-color);
   }
-  
+  thead{
+    position: sticky;
+    top: -1px;
+  }
   th,
   td {
     padding: 12px;

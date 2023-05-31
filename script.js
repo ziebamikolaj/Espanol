@@ -8,7 +8,7 @@ showAllButton.addEventListener("click", () => {
   });
 });
 
-function createTableRow(verb, i) {
+function createTableRow(verb) {
   const persons = ["Yo", "Tú", "Él/ ella/ Usted", "Nosotros/-as", "Vosotros/as", "Ellos/ ellas/ Uds"];
 
   const row = document.createElement("tr");
@@ -20,6 +20,15 @@ function createTableRow(verb, i) {
 
   if (verb.col != null) {
     pers.textContent = persons[i % 6];
+  }else{
+    i = -1;
+    if(verb.pol == null && verb.es == null) {
+        row.appendChild(pers);
+        row.appendChild(pol);
+        row.appendChild(es);
+        row.appendChild(button);
+        return row;
+    }
   }
 
   pers.classList.add("cell-right");
@@ -46,7 +55,6 @@ function createTableRow(verb, i) {
   showButton.classList.add("button");
 
   const cells = [pol, es];
-  const randomIndex = Math.floor(Math.random() * cells.length);
 
   cells.forEach((cell, index) => {
     if (index % 2 == 1) {
@@ -100,7 +108,7 @@ fetch("espanol.json")
         row.appendChild(button);
         tableBody.appendChild(row);
       }
-      const row = createTableRow(verb, i);
+      const row = createTableRow(verb);
       tableBody.appendChild(row);
 
       i++;

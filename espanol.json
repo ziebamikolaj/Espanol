@@ -1,5 +1,9 @@
 [
     {
+    "pol": "Zaczynać",
+    "es": "empezar (e:ie)"
+    },
+    {
         "pol": "Zaczynam",
         "es": "empiezo",
         "col": "b"
@@ -28,6 +32,10 @@
         "pol": "Zaczynają",
         "es": "empiezan",
         "col": "b"
+    },
+    {
+        "pol": "Myśleć o",
+        "es": "pensar en (e:ie)"
     },
     {
         "pol": "Myślę o",
@@ -60,6 +68,10 @@
         "col": "b"
     },
     {
+        "pol": "Rozumieć",
+        "es": "entender (e:ie)"
+    },
+    {
         "pol": "Rozumiem",
         "es": "entiendo",
         "col": "g"
@@ -88,6 +100,10 @@
         "pol": "Rozumieją",
         "es": "entienden",
         "col": "g"
+    },
+    {
+    "pol": "Chcieć",
+    "es": "querer (e:ie)"
     },
     {
         "pol": "Chcę",
@@ -120,6 +136,10 @@
         "col": "g"
     },
     {
+    "pol": "Woleć",
+    "es": "preferir  (e:ie)"
+    },
+    {
         "pol": "Wolę",
         "es": "prefiero",
         "col": "r"
@@ -148,6 +168,10 @@
         "pol": "Wolą",
         "es": "prefieren",
         "col": "r"
+    },
+    {
+    "pol": "Grać",
+    "es": "jugar (u:ue)"
     },
     {
         "pol": "Gram",
@@ -180,6 +204,10 @@
         "col": "b"
     },
     {
+    "pol": "Móc",
+    "es": "poder (o:ue)"
+    },
+    {
         "pol": "Mogę",
         "es": "puedo",
         "col": "g"
@@ -208,6 +236,10 @@
         "pol": "Mogą",
         "es": "pueden",
         "col": "g"
+    },
+    {
+    "pol": "Wracać",
+    "es": "volver (o:ue)"
     },
     {
         "pol": "Wracam",
@@ -240,6 +272,10 @@
         "col": "g"
     },
     {
+    "pol": "Mieć w zwyczaju",
+    "es": "soler (o:ue)"
+    },
+    {
         "pol": "Mam w zwyczaju",
         "es": "suelo",
         "col": "g"
@@ -268,6 +304,10 @@
         "pol": "Mają w zwyczaju",
         "es": "suelen",
         "col": "g"
+    },
+    {
+        "pol": "Pamiętać",
+        "es": "recordar (o:ue)"
     },
     {
         "pol": "Pamiętam",
@@ -300,6 +340,10 @@
         "col": "b"
     },
     {
+        "pol": "Spotykać",
+        "es": "encontrar (o:ue)"
+    },
+    {
         "pol": "Spotykam",
         "es": "encuentro",
         "col": "b"
@@ -328,6 +372,10 @@
         "pol": "Spotykają",
         "es": "encuentran",
         "col": "b"
+    },
+    {
+    "pol": "Prosić",
+    "es": "pedir (e:i)"
     },
     {
         "pol": "Proszę",
@@ -360,6 +408,10 @@
         "col": "r"
     },
     {
+    "pol": "Służyć",
+    "es": "servir (e:i)"
+    },
+    {
         "pol": "Służę",
         "es": "sirvo",
         "col": "r"
@@ -388,6 +440,10 @@
         "pol": "Służą",
         "es": "sirven",
         "col": "r"
+    },
+    {
+    "pol": "Iść",
+    "es": "seguir"
     },
     {
         "pol": "Idę",
@@ -420,7 +476,89 @@
         "col": "r"
     },
     {
-        "pol": "powiedzieć",
-        "es": "decir"
+        "pol": "Tłumaczyć",
+        "es": "traducir"
+    },
+    {
+        "pol": "Tłumaczę",
+        "es": "traduzco (zc)",
+        "col": "g"
+    },
+    {
+        "pol": "Tłumaczysz",
+        "es": "traduces",
+        "col": "g"
+    },
+    {
+        "pol": "Tłumaczy",
+        "es": "traduce",
+        "col": "g"
+    },
+    {
+        "pol": "Tłumaczymy",
+        "es": "traducimos",
+        "col": "g"
+    },
+    {
+        "pol": "Tłumaczycie",
+        "es": "traducís",
+        "col": "g"
+    },
+    {
+        "pol": "Tłumaczą",
+        "es": "traducen",
+        "col": "g"
+    },
+    {
+        "pol": "Znać",
+        "es": "Conocer"
+    },
+    {
+        "pol": "Znam",
+        "es": "conzco (zc)"
+    },
+    {
+        "pol": "Prowadzić pojazd",
+        "es": "conducir"
+    },
+    {
+        "pol": "Prowadzę pojazd",
+        "es": "conduzco (zc)"
+    },
+    {
+    },
+    {
+        "pol": "Budować",
+        "es": "construir (ir)"
+    },
+    {
+        "pol": "Buduję",
+        "es": "construyo (y)",
+        "col": "g"
+    },
+    {
+        "pol": "Budujesz",
+        "es": "construyes (y)",
+        "col": "g"
+    },
+    {
+        "pol": "Buduje",
+        "es": "construye (y)",
+        "col": "g"
+    },
+    {
+        "pol": "Budujemy",
+        "es": "construimos (i)",
+        "col": "g"
+    },
+    {
+        "pol": "Budujecie",
+        "es": "construís (í)",
+        "col": "g"
+    },
+    {
+        "pol": "Budują",
+        "es": "construyen (y)",
+        "col": "g"
     }
 ]
